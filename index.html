@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-RU">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Second Project</title>
+  <title>My Burger</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <h1>Hello!</h1>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <a href="#" class="header__logo-link">
+            <img src="/img/logos/logo.png" alt="MyBurger" class="header__logo-pic">
+          </a>
+        </div>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="" class="nav__item-link">О нас</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__item-link">Бургеры</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__item-link">Команда</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__item-link">Меню</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__item-link">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__item-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__order">
+          <button class="header__order-button">Заказать</button>
+        </div>
+      </div><!-- container -->
+    </header>
+    <div class="hello-block__content">
+      <div class="container">
+        <div class="hello-block__img">
+          <img src="img/first/burger.png" alt="Burger" class="hello-block__img-burger">
+          <img src="img/first/burger-drops.png" alt="Burger" class="hello-block__img-drops">
+        </div>
+        <div class="hello-block__text">
+          <h1 class="hello-block__text-title">
+            Мы делаем
+          </h1>
+          <p class="hello-block__text-subtitle">
+            натуральные бургеры
+          </p>
+        </div>
+        <div class="hello-block__pagination">
+          <ul class="hello-block__pagination-list">
+            <li class="hello-block__pagination-item">
+              <input type="radio" name="page" class="hello-block__pagination-radio">
+            </li>
+            <li class="hello-block__pagination-item">
+              <input type="radio" name="page" class="hello-block__pagination-radio">
+            </li>
+            <li class="hello-block__pagination-item">
+              <input type="radio" name="page" class="hello-block__pagination-radio">
+            </li>
+            <li class="hello-block__pagination-item">
+              <input type="radio" name="page" class="hello-block__pagination-radio">
+            </li>
+            <li class="hello-block__pagination-item">
+              <input type="radio" name="page" class="hello-block__pagination-radio">
+            </li>
+            <li class="hello-block__pagination-item">
+              <input type="radio" name="page" class="hello-block__pagination-radio">
+            </li>
+            <li class="hello-block__pagination-item">
+              <input type="radio" name="page" class="hello-block__pagination-radio">
+            </li>
+            <li class="hello-block__pagination-item">
+              <input type="radio" name="page" class="hello-block__pagination-radio">
+            </li>
+          </ul>
+        </div>
+        <div class="hello-block__flip">
+          <a href="#" class="hello-block__flip-link">
+            <img src="" alt="Arrow" class="hello-block__flip-arrow">
+          </a>
+        </div>
+      </div><!-- container -->
+    </div><!--hello-block__content-->
+  </div><!-- wrapper -->
 </body>
 </html>
