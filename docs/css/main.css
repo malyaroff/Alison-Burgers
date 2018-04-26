@@ -1,0 +1,157 @@
+
+/* FONTS */
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url('fonts/ubuntu-light-webfont.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url('fonts/ubuntu-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url('fonts/ubuntu-medium-webfont.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url('fonts/ubuntu-b-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gagalin';
+  src: url('fonts/gagalin-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* MAIN */
+
+.wrapper{
+  position: relative;
+  min-height: 100%;
+  min-width: 1100px;
+  overflow: hidden;
+}
+
+.first-page{
+  background: url(/img/bg/bg1.jpg) center center no-repeat ;
+  background-size: 100%;
+}
+
+ul, li{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+.clearfix:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0;
+  width: 1060px;
+}
+
+.header__logo{
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.header__nav{
+  float: left;
+  width: 75%;
+  font-family: ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav__item{
+  display: inline-block;
+  margin-right: 20px;
+}
+.nav__item:last-child{
+background: #e45028;
+padding: 8px 15px;
+border-radius: 7%;
+}
+
+.nav__item-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav__item:after{
+  display: inline-block;
+  vertical-align: middle;
+  content:'';
+  width: 4px;
+  height: 4px;
+  margin-left: 15px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.nav__item:last-child:after{
+  display: none;
+}
+
+.hello-block__main{
+  float: left;
+  width: 90%;
+}
+
+.hello-block__pagination-list{
+  width: 10%;
+  position: fixed;
+  right: 30px;
+  top: 75px;
+}
+
+.hello-block__img{
+  float: left;
+}
+
+.hello-block__text{
+  float: left;
+}
+
+.hello-block__pagination-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.hello-block__pagination-item:after{
+  content:'';
+  width: 6px;
+  height:6px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.hello-block__flip{
+  clear: both;
+  text-align
+}
