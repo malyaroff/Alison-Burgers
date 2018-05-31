@@ -1,0 +1,356 @@
+
+/* FONTS */
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-b-webfont.woff2') format('woff2'),
+       url('Ubuntu-b-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-light-webfont.woff2') format('woff2'),
+       url('Ubuntu-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-medium-webfont.woff2') format('woff2'),
+       url('Ubuntu-medium-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-regular-webfont.woff2') format('woff2'),
+       url('Ubuntu-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gagalin';
+  src: url('../fonts/gagalin-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lifehack';
+  src: url('../fonts/lifehack_medium-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html {
+  height: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.visuallyhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.wrapper {
+  width: 100%;
+  height: 100%; }
+
+/* MAIN */
+
+
+
+.page__hello{
+  background: url(../img/bg/bg1.jpg) center center no-repeat ;
+  background-size: 100%;
+}
+
+ul, li{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+.clearfix:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0;
+  width: 1060px;
+}
+
+.page__hello{
+  padding-bottom: 30px;
+}
+
+.header{
+  padding-top: 10px;
+}
+
+.header__left{
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.header__logo-link{
+  display: block;
+}
+
+.header__center{
+  float: left;
+  width: 59%;
+  padding-top: 30px;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav__item{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav__item-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav__item:after{
+  display: inline-block;
+  vertical-align: middle;
+  content:'';
+  width: 4px;
+  height: 4px;
+  margin-left: 15px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.nav__item:last-child:after{
+  display: none;
+}
+
+.nav__item:last-child{
+  margin: 0;
+}
+
+.header__right{
+  float: left;
+  width: 15%;
+  padding-top: 27px;
+}
+
+.link{
+  background: #e45028;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  }
+
+.hello-block__main{
+  float: left;
+  margin-bottom: 80px;
+  width: 90%;
+}
+
+.hello-block__pagination-list{
+  width: 10%;
+  position: fixed;
+  right: 30px;
+  top: 75px;
+}
+
+.hello-block__img{
+  float: left;
+  margin-right: 30px;
+}
+
+.hello-block__text{
+  float: left;
+  padding-top: 100px;
+}
+
+.title{
+  font-family: Gagalin, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  color: #f9b43b;
+  margin: 0;
+}
+
+.subtitle{
+  font-family: Lifehack, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #fff;
+  margin: 0;
+}
+
+.hello-block__flip{
+  clear: both;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hello-block__flip-link{
+  display: block;
+}
+
+.hello-block__pagination-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.hello-block__pagination-item:after{
+  content:'';
+  width: 6px;
+  height:6px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+/* BEST PAGE */
+
+.page__best{
+  background: url(../img/bg/bg2.jpg) center center no-repeat;
+  background-size: 100%;
+  padding: 130px 0 130px;
+
+}
+
+.page__best-title{
+  text-align: center;
+  margin: 0 auto 50px auto;
+  color: #2f3234;
+
+}
+
+.page__best-item{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  text-align: center;
+  margin-right: 3%;
+}
+
+.page__best-item:last-child{
+  margin-right: 0;
+}
+
+.page__best-img{
+  margin-bottom: 40px;
+}
+
+.page__best-subtitle{
+  color: #2f3234;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.page__best-desc{
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  color: #6d6d6e;
+  line-height: 1.65;
+  text-align: left;
+}
+
+
+
+/* REVIEWS */
+.container__reviews{
+  width: 100%;
+}
+
+.page__reviews{
+  margin: 0;
+  padding: 0;
+  min-height: 650px;
+}
+
+.page__reviews-item{
+  word-spacing: 0;
+  float: left;
+  width: 25%;
+  min-height: calc(650px/2);
+  background: url(../img/reviews/review1.jpg) center center  no-repeat;
+  background-size: cover;
+  padding: 50px 30px 50px 20px;
+  content:"";
+}
+
+.page__reviews-content{
+  display: none;
+}
+
+.page__reviews-item:hover .page__reviews-content{
+  display: block;
+}
+
+.page__reviews-title{
+  color: #f3f3f3;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.page__reviews-text{
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  color: #6d6d6e;
+  line-height: 1.65;
+  margin-bottom: 15px;
+}
+
+.link--more{
+  background: #2f3234;
+  padding: 8px 15px;
+  font-size: 10px;
+}
+
+.link--more:hover{
+background:#1f2122;
+}
