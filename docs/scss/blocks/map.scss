@@ -1,0 +1,76 @@
+.map{
+  background: url('../img/bg/map.jpg') center center/cover no-repeat #80898e;
+  
+}
+
+.footer{
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  background-image: url('/img/bg/footerbg.jpg');
+  width: 100%;
+  min-height: 3.75rem;
+  bottom: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer__left{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  width: 50%;
+  min-height: 3.75rem;
+  font-size: 0.875rem;
+  font-family: 'Ubuntu';
+  text-align: left;
+}
+
+.footer__right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  min-height: 3.75rem;
+}
+
+.footer__tel{
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: #e45028;
+
+  &:before{
+    content: "";
+    display: flex;
+    width: 0.75rem;
+    height: 0.75rem;
+    background: url(../img/content/phone.png) center center no-repeat;
+    margin-right: 0.625rem;
+  }
+}
+
+.social__list{
+  display: flex;
+  align-items: center;
+}
+
+.social__link{
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 1.4375rem;
+  height: 1.4375rem;
+}
+
+.social__img-vk{
+  display: block;
+  width: 1.4375rem;
+  height: 1.4375rem;
+  background: url(../img/icons/vk.png) -0.625rem 0.25rem no-repeat;
+}

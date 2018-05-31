@@ -1,0 +1,30 @@
+.best{
+  background: url("../img/bg/bg2.jpg") center center / cover no-repeat;
+}
+
+.best__list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.best__item{
+  text-align: center;
+}
+
+.best__img{
+  margin-bottom: 20px;;
+}
+
+
+
+.best__title{
+  font-family: 'Lifehack';
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.best__desc{
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 14px;
+}

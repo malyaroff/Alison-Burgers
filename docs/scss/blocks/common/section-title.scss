@@ -1,0 +1,16 @@
+.section__title{
+  font-family: Gagalin, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  color: #f9b43b;
+  margin-bottom: 40px;
+
+  &--align_center{
+    text-align: center;
+  }
+
+  &--color_black{
+    color: #000;
+  }
+}
